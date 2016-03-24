@@ -57,6 +57,7 @@ test-suite local
   type:                 exitcode-stdio-1.0
   hs-source-dirs:       tests
   main-is:              Local.hs
+  other-modules:        Lib
   default-language:     Haskell2010
   ghc-options:          -Wall
   default-extensions:   OverloadedStrings
@@ -77,6 +78,7 @@ test-suite remote
   type:                 exitcode-stdio-1.0
   hs-source-dirs:       tests
   main-is:              Remote.hs
+  other-modules:        Lib
   default-language:     Haskell2010
   ghc-options:          -Wall
   default-extensions:   OverloadedStrings
